@@ -1,0 +1,14 @@
+D:\Tanvir\VS code\ProductManagement\BLL\bin\Debug\BLL.dll
+D:\Tanvir\VS code\ProductManagement\BLL\bin\Debug\BLL.pdb
+D:\Tanvir\VS code\ProductManagement\BLL\bin\Debug\AutoMapper.dll
+D:\Tanvir\VS code\ProductManagement\BLL\bin\Debug\DAL.dll
+D:\Tanvir\VS code\ProductManagement\BLL\bin\Debug\DAL.pdb
+D:\Tanvir\VS code\ProductManagement\BLL\bin\Debug\DAL.dll.config
+D:\Tanvir\VS code\ProductManagement\BLL\bin\Debug\AutoMapper.xml
+D:\Tanvir\VS code\ProductManagement\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\Tanvir\VS code\ProductManagement\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\Tanvir\VS code\ProductManagement\BLL\obj\Debug\BLL.csproj.Up2Date
+D:\Tanvir\VS code\ProductManagement\BLL\obj\Debug\BLL.dll
+D:\Tanvir\VS code\ProductManagement\BLL\obj\Debug\BLL.pdb
+D:\Tanvir\VS code\ProductManagement\BLL\bin\Debug\EntityFramework.dll
+D:\Tanvir\VS code\ProductManagement\BLL\bin\Debug\EntityFramework.xml
