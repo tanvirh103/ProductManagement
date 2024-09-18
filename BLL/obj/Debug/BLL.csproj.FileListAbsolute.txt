@@ -26,3 +26,17 @@ D:\Tanvir\ProductManagement\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
 D:\Tanvir\ProductManagement\BLL\obj\Debug\BLL.csproj.Up2Date
 D:\Tanvir\ProductManagement\BLL\obj\Debug\BLL.dll
 D:\Tanvir\ProductManagement\BLL\obj\Debug\BLL.pdb
+E:\VS CODE\ProductManagement\BLL\bin\Debug\BLL.dll
+E:\VS CODE\ProductManagement\BLL\bin\Debug\BLL.pdb
+E:\VS CODE\ProductManagement\BLL\bin\Debug\AutoMapper.dll
+E:\VS CODE\ProductManagement\BLL\bin\Debug\DAL.dll
+E:\VS CODE\ProductManagement\BLL\bin\Debug\EntityFramework.dll
+E:\VS CODE\ProductManagement\BLL\bin\Debug\DAL.pdb
+E:\VS CODE\ProductManagement\BLL\bin\Debug\DAL.dll.config
+E:\VS CODE\ProductManagement\BLL\bin\Debug\AutoMapper.xml
+E:\VS CODE\ProductManagement\BLL\bin\Debug\EntityFramework.xml
+E:\VS CODE\ProductManagement\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+E:\VS CODE\ProductManagement\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+E:\VS CODE\ProductManagement\BLL\obj\Debug\BLL.csproj.Up2Date
+E:\VS CODE\ProductManagement\BLL\obj\Debug\BLL.dll
+E:\VS CODE\ProductManagement\BLL\obj\Debug\BLL.pdb

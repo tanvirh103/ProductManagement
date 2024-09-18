@@ -26,3 +26,18 @@ D:\Tanvir\ProductManagement\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 D:\Tanvir\ProductManagement\DAL\obj\Debug\DAL.csproj.Up2Date
 D:\Tanvir\ProductManagement\DAL\obj\Debug\DAL.dll
 D:\Tanvir\ProductManagement\DAL\obj\Debug\DAL.pdb
+E:\VS CODE\ProductManagement\DAL\bin\Debug\DAL.dll.config
+E:\VS CODE\ProductManagement\DAL\bin\Debug\DAL.dll
+E:\VS CODE\ProductManagement\DAL\bin\Debug\DAL.pdb
+E:\VS CODE\ProductManagement\DAL\bin\Debug\EntityFramework.dll
+E:\VS CODE\ProductManagement\DAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\VS CODE\ProductManagement\DAL\bin\Debug\EntityFramework.xml
+E:\VS CODE\ProductManagement\DAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\VS CODE\ProductManagement\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+E:\VS CODE\ProductManagement\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\VS CODE\ProductManagement\DAL\obj\Debug\DAL.csproj.Up2Date
+E:\VS CODE\ProductManagement\DAL\obj\Debug\DAL.dll
+E:\VS CODE\ProductManagement\DAL\obj\Debug\DAL.pdb
+E:\VS CODE\ProductManagement\DAL\obj\Debug\DAL.Migrations.initdata.resources
+E:\VS CODE\ProductManagement\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+E:\VS CODE\ProductManagement\DAL\obj\Debug\DAL.Migrations.change.resources

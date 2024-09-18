@@ -15,8 +15,8 @@ namespace BLL.Service
         public static Mapper GetMapper() {
             var con = new MapperConfiguration(cfg =>
             {
+                cfg.CreateMap<UserInfo, UserDTO>();
                 cfg.CreateMap<UserDTO, UserInfo>();
-                cfg.CreateMap<UserInfo, UserInfo>();
             });
             return new Mapper(con);
         }
@@ -32,7 +32,7 @@ namespace BLL.Service
             return DataAccessFactory.UserData().Delete(d);
         }
         public static UserDTO Get(int id) {
-            var data= DataAccessFactory.UserData().Get(id);
+            var data=DataAccessFactory.UserData().Get(id);
             var con= GetMapper().Map<UserDTO>(data);
             return con;
         }

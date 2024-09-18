@@ -23,16 +23,15 @@ namespace DAL.Repo
                 return db.SaveChanges() > 0;
         }
 
-        public UserInfo Get(int id)
-        {
-            var data=db.UserInfos.Find(id);
+        public UserInfo Get(int id) {
+            var data = db.UserInfos.Find(id);
             return data;
         }
 
         public List<UserInfo> GetAll()
         {
-            return db.UserInfos.ToList();
-          
+            var data = db.UserInfos.ToList();
+            return data;
         }
 
         public bool Update(UserInfo obj)

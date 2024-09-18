@@ -63,7 +63,7 @@ namespace ProductManagement.Controllers
         }
 
         [HttpGet]
-        [Route("Get")]
+        [Route("GetAll")]
         public HttpResponseMessage Get() {
             try
             {

@@ -69,7 +69,7 @@ namespace ProductManagement.Controllers
                 return Request.CreateResponse(HttpStatusCode.OK, data);
             }
             catch (Exception ex) {
-                return Request.CreateResponse(HttpStatusCode.InternalServerError, ex);
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, new{Msg="Error"});
             }
         }
     }

@@ -50,8 +50,8 @@ namespace ProductManagement.Controllers
                 return Request.CreateResponse(HttpStatusCode.InternalServerError, ex);
             }
         }
-        [HttpPost]
-        [Route("Delete/id")]
+        [HttpGet]
+        [Route("Delete/{id}")]
         public HttpResponseMessage Delete(int id) {
             try
             {

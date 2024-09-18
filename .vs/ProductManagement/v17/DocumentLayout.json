@@ -1,85 +1,97 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Tanvir\\ProductManagement\\",
+  "WorkspaceRootPath": "E:\\VS CODE\\ProductManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3E45C108-BACF-436E-9BE2-2D8552573C2D}|ProductManagement\\ProductManagement.csproj|D:\\Tanvir\\ProductManagement\\productmanagement\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E45C108-BACF-436E-9BE2-2D8552573C2D}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D745F859-84F2-4D6C-B52C-0D0055D3EFF3}|DAL\\DAL.csproj|e:\\vs code\\productmanagement\\dal\\migrations\\202409181911545_change.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D745F859-84F2-4D6C-B52C-0D0055D3EFF3}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\202409181911545_change.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1FED98B-AB59-4C17-906C-6BFC0A42A6BC}|BLL\\BLL.csproj|D:\\Tanvir\\ProductManagement\\bll\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1FED98B-AB59-4C17-906C-6BFC0A42A6BC}|BLL\\BLL.csproj|solutionrelative:bll\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D745F859-84F2-4D6C-B52C-0D0055D3EFF3}|DAL\\DAL.csproj|D:\\Tanvir\\ProductManagement\\dal\\repo\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D745F859-84F2-4D6C-B52C-0D0055D3EFF3}|DAL\\DAL.csproj|solutionrelative:dal\\repo\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D745F859-84F2-4D6C-B52C-0D0055D3EFF3}|DAL\\DAL.csproj|D:\\Tanvir\\ProductManagement\\dal\\interfaces\\irepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D745F859-84F2-4D6C-B52C-0D0055D3EFF3}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\irepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D745F859-84F2-4D6C-B52C-0D0055D3EFF3}|DAL\\DAL.csproj|D:\\Tanvir\\ProductManagement\\dal\\repo\\repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D745F859-84F2-4D6C-B52C-0D0055D3EFF3}|DAL\\DAL.csproj|solutionrelative:dal\\repo\\repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E45C108-BACF-436E-9BE2-2D8552573C2D}|ProductManagement\\ProductManagement.csproj|d:\\tanvir\\productmanagement\\productmanagement\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E45C108-BACF-436E-9BE2-2D8552573C2D}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E45C108-BACF-436E-9BE2-2D8552573C2D}|ProductManagement\\ProductManagement.csproj|D:\\Tanvir\\ProductManagement\\productmanagement\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E45C108-BACF-436E-9BE2-2D8552573C2D}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1FED98B-AB59-4C17-906C-6BFC0A42A6BC}|BLL\\BLL.csproj|D:\\Tanvir\\ProductManagement\\bll\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1FED98B-AB59-4C17-906C-6BFC0A42A6BC}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D745F859-84F2-4D6C-B52C-0D0055D3EFF3}|DAL\\DAL.csproj|D:\\Tanvir\\ProductManagement\\dal\\dataaccessfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D745F859-84F2-4D6C-B52C-0D0055D3EFF3}|DAL\\DAL.csproj|solutionrelative:dal\\dataaccessfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D745F859-84F2-4D6C-B52C-0D0055D3EFF3}|DAL\\DAL.csproj|D:\\Tanvir\\ProductManagement\\dal\\repo\\categoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D745F859-84F2-4D6C-B52C-0D0055D3EFF3}|DAL\\DAL.csproj|solutionrelative:dal\\repo\\categoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D745F859-84F2-4D6C-B52C-0D0055D3EFF3}|DAL\\DAL.csproj|D:\\Tanvir\\ProductManagement\\dal\\repo\\productrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D745F859-84F2-4D6C-B52C-0D0055D3EFF3}|DAL\\DAL.csproj|solutionrelative:dal\\repo\\productrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1FED98B-AB59-4C17-906C-6BFC0A42A6BC}|BLL\\BLL.csproj|D:\\Tanvir\\ProductManagement\\bll\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1FED98B-AB59-4C17-906C-6BFC0A42A6BC}|BLL\\BLL.csproj|solutionrelative:bll\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1FED98B-AB59-4C17-906C-6BFC0A42A6BC}|BLL\\BLL.csproj|D:\\Tanvir\\ProductManagement\\bll\\service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1FED98B-AB59-4C17-906C-6BFC0A42A6BC}|BLL\\BLL.csproj|solutionrelative:bll\\service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D745F859-84F2-4D6C-B52C-0D0055D3EFF3}|DAL\\DAL.csproj|D:\\Tanvir\\ProductManagement\\dal\\ef\\pmscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D745F859-84F2-4D6C-B52C-0D0055D3EFF3}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\pmscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D745F859-84F2-4D6C-B52C-0D0055D3EFF3}|DAL\\DAL.csproj|D:\\Tanvir\\ProductManagement\\dal\\ef\\tablemodels\\userinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D745F859-84F2-4D6C-B52C-0D0055D3EFF3}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\tablemodels\\userinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1FED98B-AB59-4C17-906C-6BFC0A42A6BC}|BLL\\BLL.csproj|D:\\Tanvir\\ProductManagement\\bll\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F1FED98B-AB59-4C17-906C-6BFC0A42A6BC}|BLL\\BLL.csproj|E:\\VS CODE\\ProductManagement\\bll\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1FED98B-AB59-4C17-906C-6BFC0A42A6BC}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1FED98B-AB59-4C17-906C-6BFC0A42A6BC}|BLL\\BLL.csproj|D:\\Tanvir\\ProductManagement\\bll\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1FED98B-AB59-4C17-906C-6BFC0A42A6BC}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1FED98B-AB59-4C17-906C-6BFC0A42A6BC}|BLL\\BLL.csproj|E:\\VS CODE\\ProductManagement\\bll\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1FED98B-AB59-4C17-906C-6BFC0A42A6BC}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D745F859-84F2-4D6C-B52C-0D0055D3EFF3}|DAL\\DAL.csproj|D:\\Tanvir\\ProductManagement\\dal\\ef\\tablemodels\\categoryinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D745F859-84F2-4D6C-B52C-0D0055D3EFF3}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\tablemodels\\categoryinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D745F859-84F2-4D6C-B52C-0D0055D3EFF3}|DAL\\DAL.csproj|D:\\Tanvir\\ProductManagement\\dal\\ef\\tablemodels\\productinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D745F859-84F2-4D6C-B52C-0D0055D3EFF3}|DAL\\DAL.csproj|E:\\VS CODE\\ProductManagement\\dal\\ef\\tablemodels\\productinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D745F859-84F2-4D6C-B52C-0D0055D3EFF3}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\tablemodels\\productinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E45C108-BACF-436E-9BE2-2D8552573C2D}|ProductManagement\\ProductManagement.csproj|D:\\Tanvir\\ProductManagement\\productmanagement\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{D745F859-84F2-4D6C-B52C-0D0055D3EFF3}|DAL\\DAL.csproj|E:\\VS CODE\\ProductManagement\\dal\\ef\\tablemodels\\categoryinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D745F859-84F2-4D6C-B52C-0D0055D3EFF3}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\tablemodels\\categoryinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1FED98B-AB59-4C17-906C-6BFC0A42A6BC}|BLL\\BLL.csproj|E:\\VS CODE\\ProductManagement\\bll\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1FED98B-AB59-4C17-906C-6BFC0A42A6BC}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E45C108-BACF-436E-9BE2-2D8552573C2D}|ProductManagement\\ProductManagement.csproj|e:\\vs code\\productmanagement\\productmanagement\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E45C108-BACF-436E-9BE2-2D8552573C2D}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E45C108-BACF-436E-9BE2-2D8552573C2D}|ProductManagement\\ProductManagement.csproj|E:\\VS CODE\\ProductManagement\\productmanagement\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E45C108-BACF-436E-9BE2-2D8552573C2D}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E45C108-BACF-436E-9BE2-2D8552573C2D}|ProductManagement\\ProductManagement.csproj|E:\\VS CODE\\ProductManagement\\productmanagement\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E45C108-BACF-436E-9BE2-2D8552573C2D}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1FED98B-AB59-4C17-906C-6BFC0A42A6BC}|BLL\\BLL.csproj|E:\\VS CODE\\ProductManagement\\bll\\service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1FED98B-AB59-4C17-906C-6BFC0A42A6BC}|BLL\\BLL.csproj|solutionrelative:bll\\service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1FED98B-AB59-4C17-906C-6BFC0A42A6BC}|BLL\\BLL.csproj|E:\\VS CODE\\ProductManagement\\bll\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1FED98B-AB59-4C17-906C-6BFC0A42A6BC}|BLL\\BLL.csproj|solutionrelative:bll\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1FED98B-AB59-4C17-906C-6BFC0A42A6BC}|BLL\\BLL.csproj|E:\\VS CODE\\ProductManagement\\bll\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1FED98B-AB59-4C17-906C-6BFC0A42A6BC}|BLL\\BLL.csproj|solutionrelative:bll\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D745F859-84F2-4D6C-B52C-0D0055D3EFF3}|DAL\\DAL.csproj|E:\\VS CODE\\ProductManagement\\dal\\repo\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D745F859-84F2-4D6C-B52C-0D0055D3EFF3}|DAL\\DAL.csproj|solutionrelative:dal\\repo\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D745F859-84F2-4D6C-B52C-0D0055D3EFF3}|DAL\\DAL.csproj|E:\\VS CODE\\ProductManagement\\dal\\ef\\tablemodels\\userinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D745F859-84F2-4D6C-B52C-0D0055D3EFF3}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\tablemodels\\userinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D745F859-84F2-4D6C-B52C-0D0055D3EFF3}|DAL\\DAL.csproj|E:\\VS CODE\\ProductManagement\\dal\\interfaces\\irepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D745F859-84F2-4D6C-B52C-0D0055D3EFF3}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\irepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D745F859-84F2-4D6C-B52C-0D0055D3EFF3}|DAL\\DAL.csproj|E:\\VS CODE\\ProductManagement\\dal\\dataaccessfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D745F859-84F2-4D6C-B52C-0D0055D3EFF3}|DAL\\DAL.csproj|solutionrelative:dal\\dataaccessfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D745F859-84F2-4D6C-B52C-0D0055D3EFF3}|DAL\\DAL.csproj|E:\\VS CODE\\ProductManagement\\dal\\repo\\repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D745F859-84F2-4D6C-B52C-0D0055D3EFF3}|DAL\\DAL.csproj|solutionrelative:dal\\repo\\repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D745F859-84F2-4D6C-B52C-0D0055D3EFF3}|DAL\\DAL.csproj|e:\\vs code\\productmanagement\\dal\\migrations\\202409181829106_initdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D745F859-84F2-4D6C-B52C-0D0055D3EFF3}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\202409181829106_initdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D745F859-84F2-4D6C-B52C-0D0055D3EFF3}|DAL\\DAL.csproj|e:\\vs code\\productmanagement\\dal\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D745F859-84F2-4D6C-B52C-0D0055D3EFF3}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D745F859-84F2-4D6C-B52C-0D0055D3EFF3}|DAL\\DAL.csproj|E:\\VS CODE\\ProductManagement\\dal\\repo\\categoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D745F859-84F2-4D6C-B52C-0D0055D3EFF3}|DAL\\DAL.csproj|solutionrelative:dal\\repo\\categoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D745F859-84F2-4D6C-B52C-0D0055D3EFF3}|DAL\\DAL.csproj|E:\\VS CODE\\ProductManagement\\dal\\repo\\productrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D745F859-84F2-4D6C-B52C-0D0055D3EFF3}|DAL\\DAL.csproj|solutionrelative:dal\\repo\\productrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D745F859-84F2-4D6C-B52C-0D0055D3EFF3}|DAL\\DAL.csproj|E:\\VS CODE\\ProductManagement\\dal\\ef\\pmscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D745F859-84F2-4D6C-B52C-0D0055D3EFF3}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\pmscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E45C108-BACF-436E-9BE2-2D8552573C2D}|ProductManagement\\ProductManagement.csproj|E:\\VS CODE\\ProductManagement\\productmanagement\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{3E45C108-BACF-436E-9BE2-2D8552573C2D}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
@@ -90,28 +102,106 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserRepo.cs",
-              "DocumentMoniker": "D:\\Tanvir\\ProductManagement\\DAL\\Repo\\UserRepo.cs",
-              "RelativeDocumentMoniker": "DAL\\Repo\\UserRepo.cs",
-              "ToolTip": "D:\\Tanvir\\ProductManagement\\DAL\\Repo\\UserRepo.cs",
-              "RelativeToolTip": "DAL\\Repo\\UserRepo.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAA8wBwAAAAMAAAA",
+              "DocumentIndex": 0,
+              "Title": "202409181911545_change.cs",
+              "DocumentMoniker": "E:\\VS CODE\\ProductManagement\\DAL\\Migrations\\202409181911545_change.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\202409181911545_change.cs",
+              "ToolTip": "E:\\VS CODE\\ProductManagement\\DAL\\Migrations\\202409181911545_change.cs",
+              "RelativeToolTip": "DAL\\Migrations\\202409181911545_change.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T15:29:00.616Z",
+              "WhenOpened": "2024-09-18T19:11:58.824Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "E:\\VS CODE\\ProductManagement\\ProductManagement\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ProductManagement\\Controllers\\ProductController.cs",
+              "ToolTip": "E:\\VS CODE\\ProductManagement\\ProductManagement\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ProductManagement\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAmwEAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T15:28:44.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "E:\\VS CODE\\ProductManagement\\BLL\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "BLL\\Service\\UserService.cs",
+              "ToolTip": "E:\\VS CODE\\ProductManagement\\BLL\\Service\\UserService.cs",
+              "RelativeToolTip": "BLL\\Service\\UserService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABYAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T15:29:11.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IRepo.cs",
+              "DocumentMoniker": "E:\\VS CODE\\ProductManagement\\DAL\\Interfaces\\IRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\IRepo.cs",
+              "ToolTip": "E:\\VS CODE\\ProductManagement\\DAL\\Interfaces\\IRepo.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\IRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T15:36:11.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "E:\\VS CODE\\ProductManagement\\BLL\\Service\\ProductService.cs",
+              "RelativeDocumentMoniker": "BLL\\Service\\ProductService.cs",
+              "ToolTip": "E:\\VS CODE\\ProductManagement\\BLL\\Service\\ProductService.cs",
+              "RelativeToolTip": "BLL\\Service\\ProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T15:29:12.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "E:\\VS CODE\\ProductManagement\\BLL\\Service\\CategoryService.cs",
+              "RelativeDocumentMoniker": "BLL\\Service\\CategoryService.cs",
+              "ToolTip": "E:\\VS CODE\\ProductManagement\\BLL\\Service\\CategoryService.cs",
+              "RelativeToolTip": "BLL\\Service\\CategoryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T15:29:13.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "E:\\VS CODE\\ProductManagement\\BLL\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\UserDTO.cs",
+              "ToolTip": "E:\\VS CODE\\ProductManagement\\BLL\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\UserDTO.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T15:33:50.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "DataAccessFactory.cs",
-              "DocumentMoniker": "D:\\Tanvir\\ProductManagement\\DAL\\DataAccessFactory.cs",
+              "DocumentMoniker": "E:\\VS CODE\\ProductManagement\\DAL\\DataAccessFactory.cs",
               "RelativeDocumentMoniker": "DAL\\DataAccessFactory.cs",
-              "ToolTip": "D:\\Tanvir\\ProductManagement\\DAL\\DataAccessFactory.cs",
+              "ToolTip": "E:\\VS CODE\\ProductManagement\\DAL\\DataAccessFactory.cs",
               "RelativeToolTip": "DAL\\DataAccessFactory.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -120,63 +210,102 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserDTO.cs",
-              "DocumentMoniker": "D:\\Tanvir\\ProductManagement\\BLL\\DTOs\\UserDTO.cs",
-              "RelativeDocumentMoniker": "BLL\\DTOs\\UserDTO.cs",
-              "ToolTip": "D:\\Tanvir\\ProductManagement\\BLL\\DTOs\\UserDTO.cs",
-              "RelativeToolTip": "BLL\\DTOs\\UserDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAaAAAA",
+              "DocumentIndex": 12,
+              "Title": "UserRepo.cs",
+              "DocumentMoniker": "E:\\VS CODE\\ProductManagement\\DAL\\Repo\\UserRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repo\\UserRepo.cs",
+              "ToolTip": "E:\\VS CODE\\ProductManagement\\DAL\\Repo\\UserRepo.cs",
+              "RelativeToolTip": "DAL\\Repo\\UserRepo.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACEAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T15:33:50.242Z",
+              "WhenOpened": "2024-09-17T15:29:00.616Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\Tanvir\\ProductManagement\\BLL\\Service\\UserService.cs",
-              "RelativeDocumentMoniker": "BLL\\Service\\UserService.cs",
-              "ToolTip": "D:\\Tanvir\\ProductManagement\\BLL\\Service\\UserService.cs",
-              "RelativeToolTip": "BLL\\Service\\UserService.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAiwCQAAAAMAAAA",
+              "Title": "ProductDTO.cs",
+              "DocumentMoniker": "E:\\VS CODE\\ProductManagement\\BLL\\DTOs\\ProductDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\ProductDTO.cs",
+              "ToolTip": "E:\\VS CODE\\ProductManagement\\BLL\\DTOs\\ProductDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\ProductDTO.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T15:29:11.236Z",
+              "WhenOpened": "2024-09-18T15:32:52.363Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "D:\\Tanvir\\ProductManagement\\ProductManagement\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "ProductManagement\\Controllers\\CategoryController.cs",
-              "ToolTip": "D:\\Tanvir\\ProductManagement\\ProductManagement\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "ProductManagement\\Controllers\\CategoryController.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAAkwB8AAAANAAAA",
+              "DocumentIndex": 5,
+              "Title": "CategoryDTO.cs",
+              "DocumentMoniker": "E:\\VS CODE\\ProductManagement\\BLL\\DTOs\\CategoryDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\CategoryDTO.cs",
+              "ToolTip": "E:\\VS CODE\\ProductManagement\\BLL\\DTOs\\CategoryDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\CategoryDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T15:28:43.187Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "D:\\Tanvir\\ProductManagement\\ProductManagement\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "ProductManagement\\Controllers\\ProductController.cs",
-              "ToolTip": "D:\\Tanvir\\ProductManagement\\ProductManagement\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "ProductManagement\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACsAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T15:28:44.431Z",
+              "WhenOpened": "2024-09-18T15:32:29.254Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "CategoryInfo.cs",
+              "DocumentMoniker": "E:\\VS CODE\\ProductManagement\\DAL\\EF\\TableModels\\CategoryInfo.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\TableModels\\CategoryInfo.cs",
+              "ToolTip": "E:\\VS CODE\\ProductManagement\\DAL\\EF\\TableModels\\CategoryInfo.cs",
+              "RelativeToolTip": "DAL\\EF\\TableModels\\CategoryInfo.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T15:16:17.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductInfo.cs",
+              "DocumentMoniker": "E:\\VS CODE\\ProductManagement\\DAL\\EF\\TableModels\\ProductInfo.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\TableModels\\ProductInfo.cs",
+              "ToolTip": "E:\\VS CODE\\ProductManagement\\DAL\\EF\\TableModels\\ProductInfo.cs",
+              "RelativeToolTip": "DAL\\EF\\TableModels\\ProductInfo.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwB4AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T15:16:04.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "E:\\VS CODE\\ProductManagement\\ProductManagement\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "ProductManagement\\Controllers\\UserController.cs",
+              "ToolTip": "E:\\VS CODE\\ProductManagement\\ProductManagement\\Controllers\\UserController.cs",
+              "RelativeToolTip": "ProductManagement\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAEwEYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T15:28:45.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserInfo.cs",
+              "DocumentMoniker": "E:\\VS CODE\\ProductManagement\\DAL\\EF\\TableModels\\UserInfo.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\TableModels\\UserInfo.cs",
+              "ToolTip": "E:\\VS CODE\\ProductManagement\\DAL\\EF\\TableModels\\UserInfo.cs",
+              "RelativeToolTip": "DAL\\EF\\TableModels\\UserInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T16:09:34.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "Repo.cs",
-              "DocumentMoniker": "D:\\Tanvir\\ProductManagement\\DAL\\Repo\\Repo.cs",
+              "DocumentMoniker": "E:\\VS CODE\\ProductManagement\\DAL\\Repo\\Repo.cs",
               "RelativeDocumentMoniker": "DAL\\Repo\\Repo.cs",
-              "ToolTip": "D:\\Tanvir\\ProductManagement\\DAL\\Repo\\Repo.cs",
+              "ToolTip": "E:\\VS CODE\\ProductManagement\\DAL\\Repo\\Repo.cs",
               "RelativeToolTip": "DAL\\Repo\\Repo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -185,50 +314,62 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IRepo.cs",
-              "DocumentMoniker": "D:\\Tanvir\\ProductManagement\\DAL\\Interfaces\\IRepo.cs",
-              "RelativeDocumentMoniker": "DAL\\Interfaces\\IRepo.cs",
-              "ToolTip": "D:\\Tanvir\\ProductManagement\\DAL\\Interfaces\\IRepo.cs",
-              "RelativeToolTip": "DAL\\Interfaces\\IRepo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAeAAAA",
+              "DocumentIndex": 7,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "E:\\VS CODE\\ProductManagement\\ProductManagement\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "ProductManagement\\Controllers\\CategoryController.cs",
+              "ToolTip": "E:\\VS CODE\\ProductManagement\\ProductManagement\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "ProductManagement\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwDQAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T15:36:11.031Z",
+              "WhenOpened": "2024-09-17T15:28:43.187Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\Tanvir\\ProductManagement\\ProductManagement\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "ProductManagement\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\Tanvir\\ProductManagement\\ProductManagement\\Controllers\\UserController.cs",
-              "RelativeToolTip": "ProductManagement\\Controllers\\UserController.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAASwEQAAAAQAAAA",
+              "DocumentIndex": 18,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "E:\\VS CODE\\ProductManagement\\DAL\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\Configuration.cs",
+              "ToolTip": "E:\\VS CODE\\ProductManagement\\DAL\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "DAL\\Migrations\\Configuration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T15:28:45.777Z",
+              "WhenOpened": "2024-09-18T18:27:59.588Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
+              "Title": "202409181829106_initdata.cs",
+              "DocumentMoniker": "E:\\VS CODE\\ProductManagement\\DAL\\Migrations\\202409181829106_initdata.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\202409181829106_initdata.cs",
+              "ToolTip": "E:\\VS CODE\\ProductManagement\\DAL\\Migrations\\202409181829106_initdata.cs",
+              "RelativeToolTip": "DAL\\Migrations\\202409181829106_initdata.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T18:29:24.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "CategoryRepo.cs",
-              "DocumentMoniker": "D:\\Tanvir\\ProductManagement\\DAL\\Repo\\CategoryRepo.cs",
+              "DocumentMoniker": "E:\\VS CODE\\ProductManagement\\DAL\\Repo\\CategoryRepo.cs",
               "RelativeDocumentMoniker": "DAL\\Repo\\CategoryRepo.cs",
-              "ToolTip": "D:\\Tanvir\\ProductManagement\\DAL\\Repo\\CategoryRepo.cs",
+              "ToolTip": "E:\\VS CODE\\ProductManagement\\DAL\\Repo\\CategoryRepo.cs",
               "RelativeToolTip": "DAL\\Repo\\CategoryRepo.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAACsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T01:17:25.634Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-16T01:17:25.634Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 20,
               "Title": "ProductRepo.cs",
-              "DocumentMoniker": "D:\\Tanvir\\ProductManagement\\DAL\\Repo\\ProductRepo.cs",
+              "DocumentMoniker": "E:\\VS CODE\\ProductManagement\\DAL\\Repo\\ProductRepo.cs",
               "RelativeDocumentMoniker": "DAL\\Repo\\ProductRepo.cs",
-              "ToolTip": "D:\\Tanvir\\ProductManagement\\DAL\\Repo\\ProductRepo.cs",
+              "ToolTip": "E:\\VS CODE\\ProductManagement\\DAL\\Repo\\ProductRepo.cs",
               "RelativeToolTip": "DAL\\Repo\\ProductRepo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -236,35 +377,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "D:\\Tanvir\\ProductManagement\\BLL\\Service\\ProductService.cs",
-              "RelativeDocumentMoniker": "BLL\\Service\\ProductService.cs",
-              "ToolTip": "D:\\Tanvir\\ProductManagement\\BLL\\Service\\ProductService.cs",
-              "RelativeToolTip": "BLL\\Service\\ProductService.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAWwCIAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T15:29:12.632Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CategoryService.cs",
-              "DocumentMoniker": "D:\\Tanvir\\ProductManagement\\BLL\\Service\\CategoryService.cs",
-              "RelativeDocumentMoniker": "BLL\\Service\\CategoryService.cs",
-              "ToolTip": "D:\\Tanvir\\ProductManagement\\BLL\\Service\\CategoryService.cs",
-              "RelativeToolTip": "BLL\\Service\\CategoryService.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAA5wCsAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T15:29:13.643Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 21,
               "Title": "PMSContext.cs",
-              "DocumentMoniker": "D:\\Tanvir\\ProductManagement\\DAL\\EF\\PMSContext.cs",
+              "DocumentMoniker": "E:\\VS CODE\\ProductManagement\\DAL\\EF\\PMSContext.cs",
               "RelativeDocumentMoniker": "DAL\\EF\\PMSContext.cs",
-              "ToolTip": "D:\\Tanvir\\ProductManagement\\DAL\\EF\\PMSContext.cs",
+              "ToolTip": "E:\\VS CODE\\ProductManagement\\DAL\\EF\\PMSContext.cs",
               "RelativeToolTip": "DAL\\EF\\PMSContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -272,71 +389,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UserInfo.cs",
-              "DocumentMoniker": "D:\\Tanvir\\ProductManagement\\DAL\\EF\\TableModels\\UserInfo.cs",
-              "RelativeDocumentMoniker": "DAL\\EF\\TableModels\\UserInfo.cs",
-              "ToolTip": "D:\\Tanvir\\ProductManagement\\DAL\\EF\\TableModels\\UserInfo.cs",
-              "RelativeToolTip": "DAL\\EF\\TableModels\\UserInfo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T16:09:34.372Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ProductDTO.cs",
-              "DocumentMoniker": "D:\\Tanvir\\ProductManagement\\BLL\\DTOs\\ProductDTO.cs",
-              "RelativeDocumentMoniker": "BLL\\DTOs\\ProductDTO.cs",
-              "ToolTip": "D:\\Tanvir\\ProductManagement\\BLL\\DTOs\\ProductDTO.cs",
-              "RelativeToolTip": "BLL\\DTOs\\ProductDTO.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T15:32:52.363Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CategoryDTO.cs",
-              "DocumentMoniker": "D:\\Tanvir\\ProductManagement\\BLL\\DTOs\\CategoryDTO.cs",
-              "RelativeDocumentMoniker": "BLL\\DTOs\\CategoryDTO.cs",
-              "ToolTip": "D:\\Tanvir\\ProductManagement\\BLL\\DTOs\\CategoryDTO.cs",
-              "RelativeToolTip": "BLL\\DTOs\\CategoryDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T15:32:29.254Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CategoryInfo.cs",
-              "DocumentMoniker": "D:\\Tanvir\\ProductManagement\\DAL\\EF\\TableModels\\CategoryInfo.cs",
-              "RelativeDocumentMoniker": "DAL\\EF\\TableModels\\CategoryInfo.cs",
-              "ToolTip": "D:\\Tanvir\\ProductManagement\\DAL\\EF\\TableModels\\CategoryInfo.cs",
-              "RelativeToolTip": "DAL\\EF\\TableModels\\CategoryInfo.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T15:16:17.41Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ProductInfo.cs",
-              "DocumentMoniker": "D:\\Tanvir\\ProductManagement\\DAL\\EF\\TableModels\\ProductInfo.cs",
-              "RelativeDocumentMoniker": "DAL\\EF\\TableModels\\ProductInfo.cs",
-              "ToolTip": "D:\\Tanvir\\ProductManagement\\DAL\\EF\\TableModels\\ProductInfo.cs",
-              "RelativeToolTip": "DAL\\EF\\TableModels\\ProductInfo.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T15:16:04.37Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "Web.config",
-              "DocumentMoniker": "D:\\Tanvir\\ProductManagement\\ProductManagement\\Web.config",
+              "DocumentMoniker": "E:\\VS CODE\\ProductManagement\\ProductManagement\\Web.config",
               "RelativeDocumentMoniker": "ProductManagement\\Web.config",
-              "ToolTip": "D:\\Tanvir\\ProductManagement\\ProductManagement\\Web.config",
+              "ToolTip": "E:\\VS CODE\\ProductManagement\\ProductManagement\\Web.config",
               "RelativeToolTip": "ProductManagement\\Web.config",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",

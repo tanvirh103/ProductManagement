@@ -28,6 +28,6 @@ namespace DAL.EF.TableModels
         public double ProductPrice { get; set; }
         public virtual CategoryInfo CategoryInfo { get; set; }
         [ForeignKey("CategoryInfo")]
-        public int CategoryId { get; set; }
+        public int CId { get; set; }
     }
 }
