@@ -12,3 +12,17 @@ D:\Tanvir\VS code\ProductManagement\DAL\obj\Debug\DAL.dll
 D:\Tanvir\VS code\ProductManagement\DAL\obj\Debug\DAL.pdb
 D:\Tanvir\VS code\ProductManagement\DAL\obj\Debug\DAL.Migrations.initDB.resources
 D:\Tanvir\VS code\ProductManagement\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+D:\Tanvir\ProductManagement\DAL\bin\Debug\DAL.dll.config
+D:\Tanvir\ProductManagement\DAL\bin\Debug\DAL.dll
+D:\Tanvir\ProductManagement\DAL\bin\Debug\DAL.pdb
+D:\Tanvir\ProductManagement\DAL\bin\Debug\EntityFramework.dll
+D:\Tanvir\ProductManagement\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Tanvir\ProductManagement\DAL\bin\Debug\EntityFramework.xml
+D:\Tanvir\ProductManagement\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Tanvir\ProductManagement\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\Tanvir\ProductManagement\DAL\obj\Debug\DAL.Migrations.initDB.resources
+D:\Tanvir\ProductManagement\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+D:\Tanvir\ProductManagement\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Tanvir\ProductManagement\DAL\obj\Debug\DAL.csproj.Up2Date
+D:\Tanvir\ProductManagement\DAL\obj\Debug\DAL.dll
+D:\Tanvir\ProductManagement\DAL\obj\Debug\DAL.pdb

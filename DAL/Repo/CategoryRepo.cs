@@ -12,27 +12,35 @@ namespace DAL.Repo
     {
         public bool Create(CategoryInfo obj)
         {
-            throw new NotImplementedException();
+            db.CategoryInfos.Add(obj);
+            return db.SaveChanges()>0;
         }
 
         public bool Delete(int id)
         {
-            throw new NotImplementedException();
+            var data = db.CategoryInfos.Find(id);
+            db.CategoryInfos.Remove(data);
+            return db.SaveChanges() > 0;
         }
 
         public CategoryInfo Get(int id)
         {
-            throw new NotImplementedException();
+            var data = db.CategoryInfos.Find(id);
+            return data;
         }
 
         public List<CategoryInfo> GetAll()
         {
-            throw new NotImplementedException();
+            var data = db.CategoryInfos.ToList();
+            return data;
         }
 
         public bool Update(CategoryInfo obj)
         {
-            throw new NotImplementedException();
+           var exobj=db.CategoryInfos.Find(obj.CategoryID);
+            exobj.CategoryName = obj.CategoryName;
+            exobj.CategoryDescription = obj.CategoryDescription;
+            return db.SaveChanges()>0;
         }
     }
 }

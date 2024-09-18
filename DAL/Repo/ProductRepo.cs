@@ -12,27 +12,34 @@ namespace DAL.Repo
     {
         public bool Create(ProductInfo obj)
         {
-            throw new NotImplementedException();
+            db.ProductInfos.Add(obj);
+            return db.SaveChanges()>0;
         }
 
         public bool Delete(int id)
         {
-            throw new NotImplementedException();
+            var data = db.ProductInfos.Find(id);
+            db.ProductInfos.Remove(data);
+            return db.SaveChanges()>0;
         }
 
         public ProductInfo Get(int id)
         {
-            throw new NotImplementedException();
+            return db.ProductInfos.Find(id);
         }
 
         public List<ProductInfo> GetAll()
         {
-            throw new NotImplementedException();
+            return db.ProductInfos.ToList();
         }
 
         public bool Update(ProductInfo obj)
         {
-            throw new NotImplementedException();
+            var exobj = db.ProductInfos.Find(obj.ProductId);
+            exobj.ProductName = obj.ProductName;
+            exobj.ProductDescription = obj.ProductDescription;
+            exobj.ProductPrice = obj.ProductPrice;
+            return db.SaveChanges() > 0;
         }
     }
 }

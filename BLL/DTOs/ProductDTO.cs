@@ -10,23 +10,18 @@ namespace BLL.DTOs
 {
     public class ProductDTO
     {
-
-        [Key]
         public int ProductId { get; set; }
         [Required]
-        [StringLength(50)]
-        
+        [StringLength(50)]        
         public string ProductName { get; set; }
         [Required]
         [StringLength(200)]
-        
         public string ProductDescription { get; set; }
         [Required]
-        
         public int Quantity { get; set; }
         [Required]
-        
         public double ProductPrice { get; set; }
-       
+        [Required]
+        public int CId { get; set; }
     }
 }
