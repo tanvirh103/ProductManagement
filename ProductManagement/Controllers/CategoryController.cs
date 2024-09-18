@@ -31,7 +31,7 @@ namespace ProductManagement.Controllers
             try
             {
                 var data = CategoryService.GetAll();
-                return Request.CreateResponse(HttpStatusCode.OK);
+                return Request.CreateResponse(HttpStatusCode.OK,data);
             }
             catch (Exception ex)
             {

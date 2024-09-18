@@ -31,9 +31,9 @@ namespace BLL.Service
         public static bool Delete(int d) {
             return DataAccessFactory.UserData().Delete(d);
         }
-        public static UserDTO Get(int i) {
-            var data= DataAccessFactory.UserData().Get(i);
-            var con= GetMapper().Map<UserDTO>(i);
+        public static UserDTO Get(int id) {
+            var data= DataAccessFactory.UserData().Get(id);
+            var con= GetMapper().Map<UserDTO>(data);
             return con;
         }
         public static List<UserDTO> GetAll() {

@@ -13,7 +13,7 @@ namespace ProductManagement.Controllers
     public class UserController : ApiController
     {
         [HttpGet]
-        [Route("Get")]
+        [Route("GetAll")]
         public HttpResponseMessage GetAll() {
             try
             {
