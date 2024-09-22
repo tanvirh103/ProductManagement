@@ -3,7 +3,7 @@
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class initdata : DbMigration
+    public partial class initdatabase : DbMigration
     {
         public override void Up()
         {
@@ -26,11 +26,11 @@
                         ProductDescription = c.String(nullable: false, maxLength: 200, unicode: false),
                         Quantity = c.Int(nullable: false),
                         ProductPrice = c.Double(nullable: false),
-                        CategoryId = c.Int(nullable: false),
+                        CId = c.Int(nullable: false),
                     })
                 .PrimaryKey(t => t.ProductId)
-                .ForeignKey("dbo.CategoryInfoes", t => t.CategoryId, cascadeDelete: true)
-                .Index(t => t.CategoryId);
+                .ForeignKey("dbo.CategoryInfoes", t => t.CId, cascadeDelete: true)
+                .Index(t => t.CId);
             
             CreateTable(
                 "dbo.UserInfoes",
@@ -49,8 +49,8 @@
         
         public override void Down()
         {
-            DropForeignKey("dbo.ProductInfoes", "CategoryId", "dbo.CategoryInfoes");
-            DropIndex("dbo.ProductInfoes", new[] { "CategoryId" });
+            DropForeignKey("dbo.ProductInfoes", "CId", "dbo.CategoryInfoes");
+            DropIndex("dbo.ProductInfoes", new[] { "CId" });
             DropTable("dbo.UserInfoes");
             DropTable("dbo.ProductInfoes");
             DropTable("dbo.CategoryInfoes");

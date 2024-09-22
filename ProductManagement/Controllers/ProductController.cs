@@ -17,8 +17,14 @@ namespace ProductManagement.Controllers
         public HttpResponseMessage Create(ProductDTO p) {
             try
             {
-                var data = ProductService.Create(p);
-                return Request.CreateResponse(HttpStatusCode.OK, data);
+                if (ModelState.IsValid)
+                {
+                    var data = ProductService.Create(p);
+                    return Request.CreateResponse(HttpStatusCode.OK, data);
+                }
+                else {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, new {Msg="Product Addition Unsuccessful" });
+                }
             }
             catch (Exception ex) {
             return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, ex);
@@ -29,8 +35,15 @@ namespace ProductManagement.Controllers
         public HttpResponseMessage Update(ProductDTO p) {
             try
             {
-                var data = ProductService.Update(p);
-                return Request.CreateResponse(HttpStatusCode.OK, data);
+                if (ModelState.IsValid)
+                {
+                    var data = ProductService.Update(p);
+                    return Request.CreateResponse(HttpStatusCode.OK, data);
+
+                }
+                else {
+                    return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Msg = "Error Occour to update product data" });
+                }
             }
             catch (Exception ex) {
                 return Request.CreateResponse(HttpStatusCode.InternalServerError, ex);
@@ -41,8 +54,16 @@ namespace ProductManagement.Controllers
         public HttpResponseMessage Get(int id) {
             try
             {
+                
                 var data = ProductService.Get(id);
-                return Request.CreateResponse(HttpStatusCode.OK, data);
+                if (data != null)
+                {
+                    return Request.CreateResponse(HttpStatusCode.OK, data);
+                }
+                else {
+                    return Request.CreateResponse(HttpStatusCode.OK, new { Msg="No product found"});
+                }
+                
             }
             catch (Exception ex) {
                 return Request.CreateResponse(HttpStatusCode.InternalServerError, ex);
@@ -54,7 +75,14 @@ namespace ProductManagement.Controllers
             try
             {
                 var data = ProductService.Delete(id);
-                return Request.CreateResponse(HttpStatusCode.OK, data)
+                if (data == true)
+                {
+                    return Request.CreateResponse(HttpStatusCode.OK, new { Msg = "Product Deleted Successfully" });
+                }
+                else {
+                    return Request.CreateResponse(HttpStatusCode.OK, new { Msg = "Delete operation unsuccessful" });
+                }
+                
 ;
             }
             catch (Exception ex) {
@@ -68,7 +96,13 @@ namespace ProductManagement.Controllers
             try
             {
                 var data = ProductService.GetAll();
-                return Request.CreateResponse(HttpStatusCode.OK, data);
+                if (data != null)
+                {
+                    return Request.CreateResponse(HttpStatusCode.OK, data);
+                }
+                else {
+                    return Request.CreateResponse(HttpStatusCode.OK, new { Msg = "No User found" });
+                }
             }
             catch (Exception ex) {
                 return Request.CreateResponse(HttpStatusCode.InternalServerError, ex);

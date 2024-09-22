@@ -20,7 +20,7 @@ namespace BLL.DTOs
         [StringLength(20)]
         public string Phone { get; set; }
         [Required]
-        [StringLength(20)]
+        [StringLength(8)]
         public string Password { get; set; }
         [Required]
         [StringLength(20)]   

@@ -17,8 +17,15 @@ namespace ProductManagement.Controllers
         public HttpResponseMessage Create(CategoryDTO c) {
             try
             {
-                var data = CategoryService.Create(c);
-                return Request.CreateResponse(HttpStatusCode.OK, data);
+                if (ModelState.IsValid)
+                {
+                    var data = CategoryService.Create(c);
+                    return Request.CreateResponse(HttpStatusCode.OK, data);
+                }
+                else {
+                    return Request.CreateResponse(HttpStatusCode.OK, new {Msg="Validation Error occour" });
+                }
+
             }
             catch (Exception ex) {
                 return Request.CreateResponse(HttpStatusCode.InternalServerError, ex);
@@ -31,7 +38,14 @@ namespace ProductManagement.Controllers
             try
             {
                 var data = CategoryService.GetAll();
-                return Request.CreateResponse(HttpStatusCode.OK,data);
+                if (data != null)
+                {
+                    return Request.CreateResponse(HttpStatusCode.OK, data);
+                }
+                else {
+                    return Request.CreateResponse(HttpStatusCode.OK, new { Msg="No Category found"});
+                }
+                
             }
             catch (Exception ex)
             {
@@ -44,8 +58,14 @@ namespace ProductManagement.Controllers
             try
             {
                 var data = CategoryService.Get(id);
-                return Request.CreateResponse(HttpStatusCode.OK, data);
-            }
+                if (data != null)
+                {
+                    return Request.CreateResponse(HttpStatusCode.OK, data);
+                }
+                else {
+                    return Request.CreateResponse(HttpStatusCode.OK, new { Msg = "No data found" });
+                }
+                }
             catch (Exception ex) {
                 return Request.CreateResponse(HttpStatusCode.InternalServerError, ex);
             }
@@ -56,7 +76,14 @@ namespace ProductManagement.Controllers
             try
             {
                 var data= CategoryService.Delete(id);
-                return Request.CreateResponse(HttpStatusCode.OK,data);
+                if (data == true)
+                {
+                    return Request.CreateResponse(HttpStatusCode.OK, new { Msg = "Delete Operation done" });
+                }
+                else {
+                    return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Msg = "Error occour" });
+                }
+                
             }
             catch (Exception ex) {
                 return Request.CreateResponse(HttpStatusCode.InternalServerError, ex);

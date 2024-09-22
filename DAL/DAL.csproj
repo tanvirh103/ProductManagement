@@ -57,13 +57,9 @@
     <Compile Include="EF\TableModels\ProductInfo.cs" />
     <Compile Include="EF\TableModels\UserInfo.cs" />
     <Compile Include="Interfaces\IRepo.cs" />
-    <Compile Include="Migrations\202409181829106_initdata.cs" />
-    <Compile Include="Migrations\202409181829106_initdata.Designer.cs">
-      <DependentUpon>202409181829106_initdata.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202409181911545_change.cs" />
-    <Compile Include="Migrations\202409181911545_change.Designer.cs">
-      <DependentUpon>202409181911545_change.cs</DependentUpon>
+    <Compile Include="Migrations\202409220619390_initdatabase.cs" />
+    <Compile Include="Migrations\202409220619390_initdatabase.Designer.cs">
+      <DependentUpon>202409220619390_initdatabase.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -77,11 +73,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202409181829106_initdata.resx">
-      <DependentUpon>202409181829106_initdata.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202409181911545_change.resx">
-      <DependentUpon>202409181911545_change.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202409220619390_initdatabase.resx">
+      <DependentUpon>202409220619390_initdatabase.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

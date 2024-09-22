@@ -17,8 +17,10 @@ namespace ProductManagement.Controllers
         public HttpResponseMessage GetAll() {
             try
             {
-                var data = UserService.GetAll();
-                return Request.CreateResponse(HttpStatusCode.OK, data);
+                    var data = UserService.GetAll();
+                    return Request.CreateResponse(HttpStatusCode.OK, data);
+               
+                
             }
             catch (Exception ex) {
                 return Request.CreateResponse(HttpStatusCode.InternalServerError, ex);
@@ -29,8 +31,15 @@ namespace ProductManagement.Controllers
         public HttpResponseMessage Create(UserDTO c) {
             try
             {
-                var data = UserService.Create(c);
-                return Request.CreateResponse(HttpStatusCode.OK, data);
+                if (ModelState.IsValid)
+                {
+                    var data = UserService.Create(c);
+                    return Request.CreateResponse(HttpStatusCode.OK, data);
+
+                }
+                else {
+                    return Request.CreateResponse(HttpStatusCode.InternalServerError, ModelState);
+                }
             }
             catch (Exception ex) {
                 return Request.CreateResponse(HttpStatusCode.InternalServerError, ex);
@@ -41,8 +50,15 @@ namespace ProductManagement.Controllers
         public HttpResponseMessage Update(UserDTO c) {
             try
             {
-                var data = UserService.Update(c);
-                return Request.CreateResponse(HttpStatusCode.OK, data);
+                if (ModelState.IsValid)
+                {
+                    var data = UserService.Update(c);
+                    return Request.CreateResponse(HttpStatusCode.OK, data);
+
+                }
+                else {
+                    return Request.CreateResponse(HttpStatusCode.InternalServerError, ModelState);
+                }
             }
             catch (Exception ex) {
                 return Request.CreateResponse(HttpStatusCode.InternalServerError, ex);
@@ -54,7 +70,13 @@ namespace ProductManagement.Controllers
             try
             {
                 var data = UserService.Delete(id);
-                return Request.CreateResponse(HttpStatusCode.OK, data);
+                if (data == true)
+                {
+                    return Request.CreateResponse(HttpStatusCode.OK, new { Msg = "User Deleted Successfully" });
+                }
+                else {
+                    return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Msg = "Error occur to delete user" });
+                }
             }
             catch (Exception ex) { 
                 return Request.CreateResponse(HttpStatusCode.InternalServerError,ex);
@@ -66,10 +88,17 @@ namespace ProductManagement.Controllers
             try
             {
                 var data = UserService.Get(id);
-                return Request.CreateResponse(HttpStatusCode.OK, data);
+                if (data != null)
+                {
+                    return Request.CreateResponse(HttpStatusCode.OK, data);
+                }
+                else {
+                    return Request.CreateResponse(HttpStatusCode.OK, new { Msg = "No user found" });
+                }
+                
             }
             catch (Exception ex) {
-                return Request.CreateResponse(HttpStatusCode.InternalServerError, new{Msg="Error"});
+                return Request.CreateResponse(HttpStatusCode.InternalServerError,ex);
             }
         }
     }

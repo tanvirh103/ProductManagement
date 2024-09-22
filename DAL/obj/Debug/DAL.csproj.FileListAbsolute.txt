@@ -20,8 +20,6 @@ D:\Tanvir\ProductManagement\DAL\bin\Debug\EntityFramework.SqlServer.dll
 D:\Tanvir\ProductManagement\DAL\bin\Debug\EntityFramework.xml
 D:\Tanvir\ProductManagement\DAL\bin\Debug\EntityFramework.SqlServer.xml
 D:\Tanvir\ProductManagement\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
-D:\Tanvir\ProductManagement\DAL\obj\Debug\DAL.Migrations.initDB.resources
-D:\Tanvir\ProductManagement\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
 D:\Tanvir\ProductManagement\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 D:\Tanvir\ProductManagement\DAL\obj\Debug\DAL.csproj.Up2Date
 D:\Tanvir\ProductManagement\DAL\obj\Debug\DAL.dll
@@ -41,3 +39,5 @@ E:\VS CODE\ProductManagement\DAL\obj\Debug\DAL.pdb
 E:\VS CODE\ProductManagement\DAL\obj\Debug\DAL.Migrations.initdata.resources
 E:\VS CODE\ProductManagement\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
 E:\VS CODE\ProductManagement\DAL\obj\Debug\DAL.Migrations.change.resources
+D:\Tanvir\ProductManagement\DAL\obj\Debug\DAL.Migrations.initdatabase.resources
+D:\Tanvir\ProductManagement\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
